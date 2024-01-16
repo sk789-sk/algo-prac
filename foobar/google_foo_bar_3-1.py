@@ -217,4 +217,3 @@ def solution2_7(map):
     
     return -1 #unsolvable
 
-print(solutionwtf(matrix))
