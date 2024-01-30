@@ -45,23 +45,17 @@ def solution(n,m):
 
         #Case where we now work out way down:
         n,m = max(n,m) ,min(n,m)
-        # m = min(n,m)
         generations += floor(n/m)
         n = n % m
 
         print(f' generations={generations} n = {n} m = {m}')
 
 
-
-        # larger = max(n,m)
-        # smaller = min(n,m)
-        # generations += floor(larger/smaller)
-        # larger = larger % smaller
-        
 test = ('4','7')
 
 print(solution(*test))
 
+testing = [5,10,]
 
 
 #2.7 
