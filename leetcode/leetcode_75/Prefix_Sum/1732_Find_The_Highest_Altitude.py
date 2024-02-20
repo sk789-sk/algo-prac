@@ -13,6 +13,15 @@ def solution(arr):
 
 arr = [-5,1,5,0,-7]
 arr2 = [-4,-3,-2,-1,4,3,2]
+
 print(solution(arr))
 print(solution(arr2))
 
+# max = 28
+
+# 0,27, idx=0
+# 1,20, idx = 1
+# 8,17 idx= 2
+# 11, 11 idx = 3
+
+#max of the array, subtract the number from the array 
