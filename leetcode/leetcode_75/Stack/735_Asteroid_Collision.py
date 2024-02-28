@@ -24,8 +24,6 @@ def solution(asteroids):
                 #this needs to check again as well basically rerun it.        
         if val != 0:
             stack.append(val) #all other cases(+,+) (-,-) (-,+)
-    
-    print(stack)
     return stack
 
 

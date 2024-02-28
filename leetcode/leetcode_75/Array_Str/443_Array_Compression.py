@@ -22,7 +22,7 @@ def solution(chars):
 
     while reading_idx < len(chars):
         if chars[reading_idx] == current_char:
-            counter +=1 
+            counter +=1
             reading_idx +=1
         else:
             if counter == 1:
@@ -34,9 +34,7 @@ def solution(chars):
                 for idx,val in enumerate(current_char+str(counter)):
                     chars[replacement_idx+idx] = val
 
-                replacement_idx+=len(current_char+str(counter))
-            #for char in (current_char+str(counter)):
-            
+                replacement_idx+=len(current_char+str(counter))            
             current_char = chars[reading_idx]
             reading_idx += 1
             counter = 1
